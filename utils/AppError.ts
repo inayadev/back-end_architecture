@@ -1,5 +1,5 @@
 export enum httpCode{
-    ok= 200,
+    ok = 200,
     Created = 201,
     bad_request = 400,
     Uauthorized = 401,
@@ -41,3 +41,4 @@ export class appError extends Error{
     
 
 }
+
