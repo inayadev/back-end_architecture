@@ -9,7 +9,5 @@ const userschema = joi.object({
     password:joi.string().min(6).max(12).required()
 })
 return userschema.validate(user)
-
-
 }
 
